@@ -43,7 +43,7 @@ export class ProductsController {
           fileType: /(jpg|jpeg|png)$/,
         })
         .addMaxSizeValidator({
-          maxSize: 1100000, //bytes
+          maxSize: 5100000, //bytes
         })
         .build({
           errorHttpStatusCode: HttpStatus.BAD_REQUEST,
